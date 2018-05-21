@@ -117,6 +117,7 @@ GameObject:
   m_Component:
   - component: {fileID: 522022609}
   - component: {fileID: 522022608}
+  - component: {fileID: 522022610}
   m_Layer: 0
   m_Name: roulette
   m_TagString: Untagged
@@ -173,12 +174,23 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 522022607}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.17309175, y: 0.075727694, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &522022610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 522022607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d627133818ba43248bdaf798f6539f24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1276273760
 GameObject:
   m_ObjectHideFlags: 0
@@ -228,7 +240,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.9485294, g: 0.9485294, b: 0.8160143, a: 0.18431373}
+  m_BackGroundColor: {r: 0.8308824, g: 0.8308824, b: 0.56206745, a: 0.18431373}
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -333,7 +345,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1717574124}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalPosition: {x: 0, y: 3.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
